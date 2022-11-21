@@ -1,0 +1,12 @@
+<table class="table">
+    <thead>
+        <th>Name</th>
+        <th>Description</th>
+    </thead>
+    <tbody>
+        <tr appHighlight *ngFor="let brand of brands">
+        <td>{{ brand.name }}</td>
+        <td>{{ brand.description }}</td>
+        </tr>
+    </tbody>
+</table>

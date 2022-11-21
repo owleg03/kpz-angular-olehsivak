@@ -1,0 +1,16 @@
+<table class="table">
+    <thead>
+        <th>Name</th>
+        <th>Vincode</th>
+        <th>Price</th>
+        <th>Year</th>
+    </thead>
+    <tbody>
+        <tr appHighlight *ngFor="let car of cars">
+        <td>{{ car.name }}</td>
+        <td>{{ car.vincode }}</td>
+        <td>{{ car.price }}</td>
+        <td>{{ car.year }}</td>
+        </tr>
+    </tbody>
+</table>

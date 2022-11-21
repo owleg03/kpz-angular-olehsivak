@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+td, th, tr {
+    border: solid thin lightgray;
+}
+
+th {
+    text-align: center;
+}
