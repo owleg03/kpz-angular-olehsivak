@@ -7,7 +7,8 @@ import { ViewCarsComponent } from './components/view-cars/view-cars.component';
 const routes: Routes = [
   { path: 'brands', component: ViewBrandsComponent },
   { path: 'warehouses', component: ViewWarehousesComponent },
-  { path: 'cars', component: ViewCarsComponent }
+  { path: 'cars', component: ViewCarsComponent },
+  { path: 'greeting', loadChildren: () => import('./greeting/greeting.module').then(m => m.GreetingModule) }
 ];
 
 @NgModule({

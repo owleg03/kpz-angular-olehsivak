@@ -9,7 +9,7 @@
         <tr appHighlight *ngFor="let car of cars">
         <td>{{ car.name }}</td>
         <td>{{ car.vincode }}</td>
-        <td>{{ car.price }}</td>
+        <td>{{ car.price | currencyPipe }}</td>
         <td>{{ car.year }}</td>
         </tr>
     </tbody>

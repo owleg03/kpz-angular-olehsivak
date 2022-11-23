@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Car } from 'src/app/models/car';
 import { CarService } from 'src/app/services/car.service';
+import { CurrencyPipe } from '@angular/common';
 
 @Component({
   selector: 'app-view-cars',

@@ -1,4 +1,4 @@
-export class Brand {
-    name = "";
-    description? = "";
+export interface Brand {
+    name: string;
+    description?: string;
 }
